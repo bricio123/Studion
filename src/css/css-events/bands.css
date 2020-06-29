@@ -1,0 +1,50 @@
+.bands{
+    width: 100%;
+    height: 100%;
+}
+.bands__container{
+    max-width: 68.75rem;
+    margin: 0 auto;
+}
+.bands__copy{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.bands__copy img{
+    width: 188px;
+    height: 188px;
+}
+.bands__copy__text h3{
+    margin: 0  0  30px 0;
+    padding: 0;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 18px;
+    color: #ffc602;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.bands__copy__text i{
+    font-size: 20px;
+}
+.bands__copy__text strong{
+    font-size: 15px;
+letter-spacing: 3px;
+line-height: 18px;
+color: #000000;
+font-weight: 700;
+font-family: "Montserrat";
+}
+.bands__copy__text p{
+    margin:30px  0  0  0 ;
+    width: 506px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Roboto";
+}
