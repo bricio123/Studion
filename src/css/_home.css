@@ -63,6 +63,9 @@
   align-items: center;
   text-align: center;
 }
+.slide__copy__container{
+  height: 60%;
+}
 
 .slide__copy span {
   display: block;
