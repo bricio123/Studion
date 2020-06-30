@@ -1,0 +1,27 @@
+.btn__bands {
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  border: 0.125rem solid #fff;
+  border-radius: 5rem;
+  color:#fff;
+  background: var(--color-primary);
+  font-weight: 700;
+  text-decoration: unset;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s all ease;
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Montserrat";
+ 
+}
+
+.btn__bands:hover,
+.btn__bands:active,
+.btn__bands:focus{
+  background-color:transparent;
+  color: var(--color-primary );
+  border: 1px solid  var(--color-copy);
+  box-shadow: 1px 2px 2px var(--color-copy);
+}

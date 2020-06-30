@@ -7,6 +7,7 @@
 @import "./css/_utils.css";
 @import "./css/_logo.css";
 @import "./css/_btn.css";
+@import "./css/css-events/_btn-bands.css";
 
 @import "./css/_navbar.css";
 @import "./css/_hero.css";
@@ -15,3 +16,4 @@
 @import "./css/_home.css";
 @import "./css/_contacts.css";
 @import "./css/css-events/bands.css";
+

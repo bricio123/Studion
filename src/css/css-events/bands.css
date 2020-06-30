@@ -13,25 +13,34 @@
     justify-content: center;
     margin: 80px 0;
 }
+.bands__copy__text i{
+    color: var(--color-primary);
+}
 
 .bands__copy img{
     width: 188px;
     height: 188px;
 }
-.bands__copy__text h3{
+.bands__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.bands__text h3{
     margin: 0  0  30px 0;
     padding: 0;
     font-size: 20px;
     letter-spacing: 4px;
     line-height: 18px;
-    color: #ffc602;
+    color: var(--color-primary);
     font-weight: 700;
     font-family: "Montserrat";
 }
-.bands__copy__text i{
+.bands__text i{
     font-size: 20px;
+    color: var(--color-primary);
 }
-.bands__copy__text strong{
+.bands__text strong{
     font-size: 15px;
 letter-spacing: 3px;
 line-height: 18px;
@@ -39,7 +48,7 @@ color: #000000;
 font-weight: 700;
 font-family: "Montserrat";
 }
-.bands__copy__text p{
+.bands__text p{
     margin:30px  0  0  0 ;
     width: 506px;
     font-size: 17px;
@@ -47,4 +56,46 @@ font-family: "Montserrat";
     color: #333333;
     font-weight: 400;
     font-family: "Roboto";
+}
+.bands__text p{
+    width: 795px;
+    height: 170px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.adress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.adress a{
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-family: "Montserra"
+}
+.adress span{
+    
+    display: flex;
+    flex-direction: column;
+}
+.adress span h2{
+    font-size: 15px;
+letter-spacing: 3px;
+line-height: 18px;
+color: var(--color-copy);
+font-weight: 400;
+font-family: "Montserrat";
+}
+.adress span small{
+    font-size: 14px;
+line-height: 27px;
+color: #333333;
+font-weight: 400;
+font-family: "Roboto"
 }
