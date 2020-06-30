@@ -7,7 +7,7 @@
 .hero__background {
   position: absolute;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   
 }
@@ -24,9 +24,41 @@
   width: 50%;
   padding: 7rem 1.875rem;
 }
+@media screen and (max-width:1279px){
+    .hero{
+      height:20.625rem;
+    }
+    .hero__container{
+      height:20.625rem;
+     
+    
+    }
+    .hero__copy{
+      position: unset;
+      width: 100%;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+   
+    }
+    .hero__copy h2{
+      margin: 0;
+      margin-bottom: 2rem !important;
+      font-size:4.5rem !important;
+      margin: 0 !important;
+     
+    }
+    .hero__copy p{
+      font-size: 0.6375rem !important;
+      width: 500px;
+    }
 
+}
 .hero__copy h2 {
-  margin: 0;
+
   margin-bottom: 3rem;
   font-size: 7.5rem;
   line-height: 7.5rem;
