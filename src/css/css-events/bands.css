@@ -70,14 +70,7 @@ font-family: "Montserrat";
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.adress a{
-    font-size: 15px;
-    letter-spacing: 3px;
-    line-height: 18px;
-    color: var(--color-primary);
-    font-weight: 700;
-    font-family: "Montserra"
+    align-items: center;
 }
 .adress span{
     

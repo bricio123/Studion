@@ -10,8 +10,8 @@
   text-transform: uppercase;
   text-align: center;
   transition: 0.3s all ease;
-  font-size: 10px;
-  line-height: 24px;
+  font-size: 0.625rem;
+  line-height: 1.5rem;
   font-weight: 700;
   font-family: "Montserrat";
  
@@ -22,6 +22,29 @@
 .btn__bands:focus{
   background-color:transparent;
   color: var(--color-primary );
-  border: 1px solid  var(--color-copy);
-  box-shadow: 1px 2px 2px var(--color-copy);
+  border: 0.0625rem solid  var(--color-copy);
+  box-shadow: 0.0625rem 0.125rem  0.125rem  var(--color-copy);
+}
+
+
+.btn__bands__adress{
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 18px;
+  color: #fdd138;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-decoration: unset;
+  padding: 1rem 2.5rem;
+  transition: 0.3s all ease;
+}
+.btn__bands__adress:hover,
+.btn__bands__adress:active,
+.btn__bands__adress:focus{
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  border: 0.125rem solid #fff;
+  border-radius: 5rem;
+  color:#fff;
+  background: var(--color-primary);
 }
