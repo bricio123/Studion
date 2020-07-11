@@ -5,6 +5,13 @@
   text-transform: uppercase;
   text-align: right;
 }
+@media screen and (max-width:719px){
+  .logo-studion{
+    margin: 0 !important;
+  
+  }
+  
+}
 
 .logo-studion__subtitle {
   display: block;

@@ -75,3 +75,28 @@
       width: 400px;
     }
 }
+@media screen and (max-width:719px){
+  .hero{
+    max-height: 90vh;
+  }
+  .hero__container{
+    max-height: 90vh;
+  }
+    .hero__copy h2{
+      margin-bottom: 0;
+      height: 170px;
+      
+      font-size: 1.5rem !important;
+      line-height: 7.5rem;
+      letter-spacing: 0.3125rem;
+      color: var(--color-primary);
+      display: inline-block;
+    }
+    .hero__copy p {
+      margin: 0;
+      font-size: 0.9375rem;
+      line-height: 1rem !important;
+      color: var(--color-copy--alt);
+      max-width: 700px !important;
+    }
+}
