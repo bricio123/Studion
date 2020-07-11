@@ -1,0 +1,24 @@
+.icons{
+    background: var(--color-primary);
+}
+.icons h2{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 25px;
+    line-height: 31px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+   
+}
+.icons__container{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.icons__container img{
+    padding:  50px 0;
+    width: 900px;
+}

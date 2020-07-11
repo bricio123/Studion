@@ -8,6 +8,9 @@
 @import "./css/_logo.css";
 @import "./css/_btn.css";
 @import "./css/css-events/_btn-bands.css";
+@import "./css/css-enterprise/man-tex-img.css";
+@import "./css/css-enterprise/icons.css";
+@import "./css/css-enterprise/video.css";
 
 @import "./css/_navbar.css";
 @import "./css/_hero.css";
