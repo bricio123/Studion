@@ -13,9 +13,13 @@ main{
     justify-content: center;
     align-items: center;
 }
-.i-m{
-    
-    
+.row img{
+    margin: 20px;
+}
+.row img:hover{
+    box-shadow: 1px 1px 5px 1px white;
+    transform: translateX(10%);
+    transition: 1s ease;
 }
 .col {
     height: 100vh;
