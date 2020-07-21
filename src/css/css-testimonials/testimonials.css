@@ -1,20 +1,71 @@
 .slide{
     background-color: var(--color-primary);
-   
 }
 .copy__inside{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.copy__inside img{
+    width: 200px;
+    margin: 20px;
+}
+.text_slide{
+    width: 50vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.text_slide h3{
+    font-size: 50px;
+    letter-spacing: -2px;
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.text_slide  small{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.text_slide strong::before{
+    content: '“';
+}
+.text_slide strong{
+    font-size: 84px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    height: 100px;
+    width: 100%;
+}
+.text_slide p{
+    height: 75px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Montserrat";
 }
 .slick-dots{
     background-color: var(--color-primary);
     margin : 0;
-    bottom: -30px;
+    height: 100px;
+    position: static   ;
     display:flex;
     align-items: center;
-    justify-content: center;
-    height:100px;
-  
+    justify-content: center;  
+}
+.slick-dotted.slick-slider{
+    background-color: var(--color-primary) !important;
+    margin-bottom: 0;
 }
 .slick-dots li button::before{
     width: 30px ;
